@@ -7,52 +7,65 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 20px;
         }
-        header, nav, section, aside, footer {
-            margin: 10px 0;
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        section {
+            margin: 20px 0;
             padding: 10px;
             border: 1px solid #ccc;
         }
-        nav a {
-            margin-right: 15px;
+        aside {
+            background-color: #e2e2e2;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Your Favorite Movie Title</h1> <!-- Replace with your movie title -->
+    <h1>Your Favorite Movie Title</h1>
 </header>
 
 <nav>
-    <a href="#actor" id="nav-actor">Actor</a>
-    <a href="#quote" id="nav-quote">Quote</a>
+    <a href="#actor" id="nav-actor">Actors</a>
+    <a href="#quote" id="nav-quote">Quotes</a>
 </nav>
 
-<section>
-    <h2>Summary</h2>
-    <p>Write a brief summary of the plot.</p> <!-- Replace with your plot summary -->
-</section>
+<summary>
+    <p>Brief summary of the plot goes here. Describe the main storyline and key elements of the movie.</p>
+</summary>
 
 <section id="actor">
     <h2>Actors</h2>
-    <p>Details about the actors go here. For example, you can list the main actors and their roles.</p>
+    <p>Details about the actors go here. You can mention the lead actors and their roles.</p>
 </section>
 
 <section id="quote">
     <h2>Favorite Quote</h2>
-    <p>"Your favorite quote from the movie goes here."</p> <!-- Fill in your favorite quote -->
+    <p>Your favorite quote from the movie goes here.</p>
 </section>
 
 <aside>
-    <h2>Additional Information</h2>
-    <p>IMDb Rating: 8.5/10</p> <!-- Replace with actual IMDb rating -->
-    <p>Release Date: January 1, 2020</p> <!-- Replace with actual release date -->
+    <p>IMDb Rating: 8.5/10</p>
+    <p>Release Date: January 1, 2021</p>
 </aside>
 
 <footer>
-    <p>Produced by: Your Producer's Name</p> <!-- Replace with producer's name -->
+    <p>Produced by: Your Producer Name</p>
 </footer>
 
 </body>
